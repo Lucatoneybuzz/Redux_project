@@ -1,0 +1,58 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-body {
+  font-size: 1em;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-button,
+.save-button,
+delete-button {
+  padding: 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #45a049;
+  }
+} 
